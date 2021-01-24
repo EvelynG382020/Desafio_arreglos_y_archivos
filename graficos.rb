@@ -9,7 +9,8 @@ def chart(array)# defino mi metodo
         #lo duplicaré y pondré asterisco
         puts "|#{asterisco}" 
     end
-    puts ">#{patron}"#el signo mayor y luego el patro la variable
+    puts ">#{patron}"
+     #el signo mayor y luego el patro la variable
     #que indiqué arriba con el patron a repetir.
 end
 
