@@ -16,9 +16,9 @@ suma= []
     resultado1 = suma.sum * 1.2 
     "$%0.2f" % resultado1    
 end
-resultado = []
-resultado.push proyeccion_venta1(data)
-resultado.push proyeccion_venta2(data)
+resultado_final = []
+resultado_final.push proyeccion_venta1(data)
+resultado_final.push proyeccion_venta2(data)
 
-File.write('resultados_data', resultado.join("\n"))
+File.write('resultados_data', resultado_final.join("\n"))
 #puts resultado #lo imprimí para yo ver si estaba bien el resultado
