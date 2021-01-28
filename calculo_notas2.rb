@@ -10,7 +10,7 @@ def notas_mas_alta(alumnos) #crear el metodo con el argumento que ingresa el usu
         #y lo pase a integer
         notas_maximas.push(nota_max)#guarde en el arreglo la nota maxima
     end
-    return notas_maximas
+    notas_maximas
 end
 
 
